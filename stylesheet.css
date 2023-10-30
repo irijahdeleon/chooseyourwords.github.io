@@ -16,6 +16,7 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5dc ;
 }
 
 
@@ -34,7 +35,7 @@ main {
   width: 100vw;
   height: 80vh;
   pointer-events: none;
-  background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
+  background: linear-gradient(to top, #f5f5dc, rgba(255, 255, 255, 0));
 }
 
 #g {
