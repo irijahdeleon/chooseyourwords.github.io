@@ -41,8 +41,9 @@ h1 {
 }
 
 #connect{
-  text-align: left;
+  text-align: center;
   padding-top: 30px;
+  font-size: 20px;
 }
 
 img {
