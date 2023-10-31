@@ -1,0 +1,51 @@
+body{
+  background-color: #ff0000;
+}
+
+.layout {
+  width: 1366px;
+  letter-spacing: -1.5px;
+  height: 2000px;
+  padding-left: 10px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 3fr);
+  grid-template-columns: repeat(3, auto);
+  gap: 10px 30px;
+  padding-top: 10px;
+  font-family: 'VT323', monospace;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoV_29p3vLnJNsyU4dsOwin2JGpm-K8Ms3CoxyitvbJRS2NfX1HyISQyyt5aaB1J1-5E&usqp=CAU");
+ background-color: #cccccc;
+ background: cover;
+ color: #ff0000;
+ text-align: center;
+}
+
+h1 {
+   margin-left: auto;
+   margin-right: auto;
+   color: #ff0000;
+   background-color: white;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   font-family: 'Pixelify Sans', sans-serif;
+    letter-spacing: 3px;
+   font-weight: 100px;
+}
+
+#twink {
+  font-size: 30px;
+  align: center;
+}
+
+#connect{
+  text-align: left;
+  padding-top: 30px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
