@@ -1,53 +1,100 @@
-body{
-  background-color: #ff0000;
+body {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/24451097/original_7f998d8193481546d3393bfa69b7cb25.gif?1698754820?bc=0");
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #cccccc;
 }
 
 .layout {
   width: 1366px;
-  letter-spacing: -1.5px;
-  height: 2000px;
-  padding-left: 10px;
-  padding-right: 10px;
-  display: grid;
-  grid-template-rows: repeat(auto-fit, 3fr);
-  grid-template-columns: repeat(3, auto);
-  gap: 10px 30px;
-  padding-top: 10px;
-  font-family: 'VT323', monospace;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoV_29p3vLnJNsyU4dsOwin2JGpm-K8Ms3CoxyitvbJRS2NfX1HyISQyyt5aaB1J1-5E&usqp=CAU");
- background-color: #cccccc;
- background: cover;
- color: #ff0000;
- text-align: center;
+  height: 368px;
+
+  display: flex;
+  gap: 25px;
+
+  justify-content: right;
+  align-items: right;
+}
+
+.layout4 {
+  width: 1366px;
+  height: 368px;
+  display: flex;
+  gap: 25px;
+  justify-content: left;
+  align-items: center;
+}
+
+.layout3 {
+  width: 1366px;
+  height: 768px;
+
+  display: flex;
+  gap: 25px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.big {
+  font-size: 30px;
+  color: red;
+  letter-spacing: -3px;
+}
+
+.layout2 {
+  width: 1366px;
+  height: 68px;
+
+  display: flex;
+  gap: 25px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.big2 {
+  text-align: center;
+  letter-spacing: -10px;
+  font-size: 100px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  font-style: oblique;
+  padding-right: 30px;
+}
+
+.big3 {
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: -3px;
+  position: absolute;
 }
 
 h1 {
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   color: #ff0000;
-   background-color: white;
-   padding-top: 20px;
-   padding-left: 10px;
-   padding-bottom: 10px;
-   font-family: 'Pixelify Sans', sans-serif;
-    letter-spacing: 3px;
-   font-weight: 100px;
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 10px;
+  letter-spacing: -4px;
+  font-size: 40px;
 }
 
-#twink {
-  font-size: 30px;
-  align: center;
-}
-
-#connect{
-  text-align: center;
-  padding-top: 30px;
-  font-size: 20px;
-}
-
-img {
-  width: 300px;
-  height: 300px;
+#find {
+  height: 400px;
+  width: 400px;
   object-fit: cover;
+}
+
+#find2 {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  left-margin: auto;
+}
+
+#found {
+  color: white;
+  font-size: 10px;
+  letter-spacing:-3px;
 }
